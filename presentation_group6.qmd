@@ -1,0 +1,41 @@
+---
+title: "Group6 Presentation"
+author: "Group6(Yun Yi, Weiran, Sifan, Sid)"
+output:
+  quarto::quarto_presentation:
+    self_contained: true
+format: revealjs
+editor: visual
+---
+
+## Hello
+
+This is a presentation from group6.
+
+## Simple Math
+
+This is a super easy math question.
+
+```{r, echo = TRUE}
+a <- 1
+b <- 2
+c <- a + b
+print(c)
+```
+
+## String Magic
+
+This is a string operation.
+
+```{r, echo= TRUE}
+x <- "We "
+y <- "are "
+z <- "group6!"
+
+group_string <- paste(x, y, z)
+print(group_string)
+```
+
+## Thank you
+
+This is a simple presentation from Group6.
